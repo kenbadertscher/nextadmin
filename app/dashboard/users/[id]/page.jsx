@@ -27,6 +27,7 @@ const SingleUserPage = () => {
 			<select name="isAdmin" id="isAdmin">
 				<option value={true}>Yes</option>
 				<option value={false}>No</option>
+				<option value={false}>Maybe?</option>
 			</select>
 			<label>Is Active?</label>
 			<select name="isActive" id="isActive">
