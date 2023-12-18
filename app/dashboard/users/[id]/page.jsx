@@ -9,7 +9,7 @@ const SingleUserPage = () => {
 		<div className={styles.imgContainer}>
 			<Image src="/noavatar.png" alt="" fill />
 		</div>
-		John Smith
+		John Savage
 	  </div>
 	  <div className={styles.formContainer}>
 		<form action="" className={styles.form}>
