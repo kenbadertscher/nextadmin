@@ -14,7 +14,7 @@ const SingleProductPage = () => {
 	  <div className={styles.formContainer}>
 		<form action="" className={styles.form}>
 			<label>Title</label>
-			<input type="text" name="title" placeholder="Iphone" />
+			<input type="text" name="title" placeholder="iPhone" />
 			<label>Price</label>
 			<input type="number" name="price" placeholder="$1,200.00" />
 			<label>Stock</label>
