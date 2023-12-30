@@ -6,9 +6,10 @@ import Image from "next/image"
 import Pagination from "@/app/ui/dashboard/pagination/paginaton"
 import { fetchUsers } from "@/app/lib/data"
 
-const UsersPage = async () => {
+const UsersPage = async ({searchParams}) => {
 
-	const users = await fetchUsers();
+	const q = searchParams?.query || "";
+	const users = await fetchUsers(q);
 	console.log(users)
   return (
 	<div className={styles.container}>
