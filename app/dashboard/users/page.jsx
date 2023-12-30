@@ -1,10 +1,9 @@
-import React from 'react'
 import styles from"@/app/ui/dashboard/users/users.module.css"
-import Search from "../search/search"
 import Link from "next/link"
 import Image from "next/image"
-import Pagination from "@/app/ui/dashboard/pagination/paginaton"
 import { fetchUsers } from "@/app/lib/data"
+import Search from "@/app/ui/dashboard/search/search"
+import Pagination from "@/app/ui/dashboard/pagination/paginaton"
 
 const UsersPage = async ({searchParams}) => {
 
@@ -38,7 +37,8 @@ const UsersPage = async ({searchParams}) => {
 							<div className={styles.user}>
 								<Image 
 									src={user.img || "/noavatar.png"}
-									alt="" width={40} 
+									alt="" 
+									width={40} 
 									height={40} 
 									className={styles.userImage}  
 								/>
