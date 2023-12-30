@@ -19,7 +19,6 @@ export const fetchUsers = async (q, page) => {
 	}
   };
   
-
   export const fetchProducts = async (q, page) => {
 
 	const regex = new RegExp(q, "i");
