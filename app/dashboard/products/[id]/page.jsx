@@ -31,7 +31,7 @@ const SingleProductPage = () => {
 			<label>Description</label>
 			<textarea 
 				name="desc" 
-				id="" 
+				id="desc"
 				cols="30" 
 				rows="10" 
 				placeholder="description"
