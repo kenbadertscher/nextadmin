@@ -49,7 +49,7 @@ export const addUser = async (formData) => {
 		price,
 		stock,
 		color,
-		size,
+		size
 	  });
   
 	  await newProduct.save();
